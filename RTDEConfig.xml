@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rtde_config>
+     <Group key="In">
+		<field name="standard_digital_output_mask" type="UINT8"/>
+		<field name="standard_digital_output" type="UINT8"/>
+		<field name="input_int_register_22" type="INT32"/>
+		<field name="input_int_register_23" type="INT32"/>
+		<field name="input_double_register_0" type="DOUBLE"/>
+		<field name="input_double_register_1" type="DOUBLE"/>
+		<field name="input_double_register_2" type="DOUBLE"/>
+		<field name="input_double_register_3" type="DOUBLE"/>
+		<field name="input_double_register_4" type="DOUBLE"/>
+		<field name="input_double_register_5" type="DOUBLE"/>
+	</Group>
+	<Group key="Out">
+	  <field name="joint_control_output" type="VECTOR6D"/>
+	  <field name="actual_q" type="VECTOR6D"/>
+	  <field name="robot_mode" type="INT32"/>
+	  <field name="actual_TCP_pose" type="VECTOR6D"/>
+	  <field name="output_int_register_22" type="INT32"/>
+	  <field name="output_int_register_23" type="INT32"/>
+	  
+	</Group>
+	<!--
+	<Group key="Out">
+	    <field name="standard_analog_input0" type="DOUBLE"/>
+		<field name="target" type="VECTOR6D"/>
+	</Group>
+	-->
+</rtde_config>
